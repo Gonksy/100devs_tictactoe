@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>100Devs Tic Tac Toe</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--   start with a grid
+  -->
+<div class="grid">
+  <div>
+	  <div id='a1' class="columnA row1 1a">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+	  <div id='a2' class="columnA row2 1b">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+	  <div id='a3' class="columnA row3 1c">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+  </div>
+  <div>
+	  <div id='b1' class="columnB row1 2a">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+	  <div id='b2' class="columnB row2 2b">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span></div>
+	  <div id='b3' class="columnB row3 2c">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+  </div>
+  <div>
+	  <div id='c1' class="columnC row1 3a">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+	  <div id='c2' class="columnC row2 3b">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+	  <div id='c3' class="columnC row3 3c">
+      <span class="x hidden">X</span>
+      <span class="o hidden">O</span>
+    </div>
+  </div>
+</div>
+  
+  <!-- Grid end here  -->
+		 <br><br><br>
+		 <!-- Button to reset game -->
+		 <button id="but" onclick="myfunc_2()">
+			 RESET
+		 </button>
+		 <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
